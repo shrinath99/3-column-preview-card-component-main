@@ -1,0 +1,60 @@
+.main{
+  margin: 0;
+
+  margin: 200px 200px 200px 200px;
+
+}
+
+.cars{
+float: left;
+width: 33%;
+height: 100px;
+}
+
+
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px 30px 100px 30px;
+}
+.suv{
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px 30px 30px 30px;
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px 30px 30px 30px;
+}
+.btn {
+
+  border-radius: 24px;
+  font-family: Arial;
+  color: hsl(31, 77%, 52%);
+  font-size: 15px;
+  background: hsl(0, 0%, 95%);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+
+}
+.btn1 {
+
+  border-radius: 24px;
+  font-family: Arial;
+  color: hsl(184, 100%, 22%);
+  font-size: 15px;
+  background: hsl(0, 0%, 95%);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+.btn2{
+
+  border-radius: 24px;
+  font-family: Arial;
+  color: hsl(179, 100%, 13%);
+  font-size: 15px;
+  background: hsl(0, 0%, 95%);
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
