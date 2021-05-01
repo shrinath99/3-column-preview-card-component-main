@@ -8,10 +8,7 @@ body{
   background-color: hsla(0, 0%, 100%, 0.75);
 }
 .main{
-
-
   margin: 100px 250px 100px 250px;
-
 }
 
 .cars{
@@ -44,6 +41,12 @@ height: 100px;
   color: hsla(0, 0%, 100%, 0.75);
   font-size: 15px;
   line-height: 2;
+}
+.attribution{
+
+  position:absolute;
+  margin-left: 500px;
+  margin-top: 500px;
 }
 .btn {
 
