@@ -2,8 +2,6 @@
 h1{
   font-family: 'Big Shoulders Display', cursive;
   color:hsl(0, 0%, 95%);
-
-
 }
 body{
   background-color: hsla(0, 0%, 100%, 0.75);
@@ -13,21 +11,10 @@ body{
 
   align-items: center;
 }
-/*.main{
-  margin: 2rem;
 
-}*/
 .car{
   padding: 4rem;
 }
-
-/*.cars{
-display: inline-grid;
-grid-template-columns: auto auto auto;
-grid-gap: 0;
-width: 33%;
-height: 100px;
-}*/
 
 
 .sedans{
