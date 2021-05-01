@@ -3,37 +3,52 @@ h1{
   font-family: 'Big Shoulders Display', cursive;
   color:hsl(0, 0%, 95%);
 
+
 }
 body{
   background-color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+
+  align-items: center;
 }
-.main{
-  margin: 100px 250px 100px 250px;
+/*.main{
+  margin: 2rem;
+
+}*/
+.car{
+  padding: 4rem;
 }
 
-.cars{
-float: left;
+/*.cars{
+display: inline-grid;
+grid-template-columns: auto auto auto;
+grid-gap: 0;
 width: 33%;
 height: 100px;
-}
+}*/
 
 
 .sedans{
   background-color: hsl(31, 77%, 52%);
-  padding: 40px 30px 50px 40px;
+  /*padding: 40px 30px 50px 40px;*/
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+
 
 }
 .suv{
   background-color: hsl(184, 100%, 22%);
-  padding: 40px 30px 50px 40px;
+  /*padding: 40px 30px 50px 40px;*/
+
 }
 .luxury{
   background-color: hsl(179, 100%, 13%);
-  padding: 40px 30px 50px 40px;
+  /*padding: 40px 30px 50px 40px;*/
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+
 }
 .para{
   padding-bottom: 70px;
@@ -81,4 +96,11 @@ height: 100px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
   border: none;
+}
+@media screen and (min-width: 850px) {
+    .main {
+        display: flex;
+        width: 1000px;
+        max-width: 100%;
+    }
 }
